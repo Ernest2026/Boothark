@@ -84,7 +84,7 @@ const PatroniseSidebar: React.FC = () => {
                         </span>
                     </div>
                 </div>
-                {restaurant !== null && (
+                {restaurant === null && (
                     <div className="flex gap-1 mt-4">
                         <div className="px-[14px] py-[5px] flex justify-center items-center gap-2 rounded-full border border-white border-solid">
                             <p>Rating</p>
